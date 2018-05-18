@@ -1,0 +1,29 @@
+.my-friend{
+    border: none;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    
+}
+.chosen:focus, .my-friend:focus, .new-friend:focus  {
+    outline: none;
+  }
+.new-friend {
+    color: black;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
+
+.chosen {
+    color: rgb(66, 103, 178);
+    background-color: white;
+    font-size: 15px;
+    border: none;
+}
+.bar {
+    display: inline;
+    width: 0px;
+    height: 100%;
+    border: 1px solid gray;
+}

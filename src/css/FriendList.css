@@ -1,0 +1,30 @@
+.friend-list {
+  margin-top: 20px;
+}
+.avatar {
+  max-width: 60px;
+}
+.friend-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.info {
+  flex-grow: 1;
+  margin-left: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info div {
+  flex-grow: 0;
+  max-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.friend-item button {
+  max-height: 30px;
+  flex-basis: 100px;
+  min-width: 120px;
+}

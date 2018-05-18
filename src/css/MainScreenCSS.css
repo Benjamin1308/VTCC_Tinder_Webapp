@@ -1,0 +1,32 @@
+.title {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+.header {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.header button {
+  background-image: url("../assets/images/hotgirlicon.png");
+  background-size: cover;
+  background-color: rgb(66, 103, 178);
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.logIn2 {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(66, 103, 178);
+  color: white;
+  width: 400px;
+  padding: 10px;
+}
+.main-item {
+  height: 100%;
+}

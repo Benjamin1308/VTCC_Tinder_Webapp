@@ -1,0 +1,58 @@
+.loginPage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginPage form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formTitle {
+  font-size: 2em;
+}
+.form-item {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bbb;
+  font-style: bold;
+  margin-bottom: 10px;
+}
+.form-item label,
+.form-item input {
+  width: 100%;
+  border: none;
+}
+.form-item label {
+  font-size: 17px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  margin-bottom: 0px;
+}
+.form-item input {
+  font-size: 30px;
+  background-color: rgb(238, 238, 238);
+}
+
+.form-item input:focus {
+  outline: none;
+}
+.form-item-filled label {
+  opacity: 1;
+  color: #aaa;
+}
+.form-item-focus label {
+  color: #722872;
+}
+.btn a {
+  color: white;
+}
+
+.btn a:hover {
+  text-decoration: none;
+}
+.btn {
+  margin: 20px auto;
+}

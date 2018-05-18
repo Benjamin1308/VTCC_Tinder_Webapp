@@ -1,0 +1,26 @@
+.commentView {
+  height: 300px;
+
+  color: white;
+}
+.cmtList {
+  height: 220px;
+  overflow-y: scroll;
+}
+.cmtList::-webkit-scrollbar {
+  width: 5px;
+}
+
+.cmtList::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.cmtInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cmtInput input {
+  width: 250px;
+  margin-left: 10px;
+}
